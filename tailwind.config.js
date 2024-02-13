@@ -18,6 +18,7 @@ module.exports = {
         chicago: "url('../img/chicago.jpg')",
         europe: "url('../img/europe.jpg')",
         iceland: "url('../img/iceland.jpg')",
+        search: "url('../icon/Searchbar.svg')",
       },
       backgroundColor: (theme) => ({
         ...theme("colors"),
@@ -38,6 +39,11 @@ module.exports = {
       },
       height: {
         487: "487px",
+        700: "700px",
+        900: "900px",
+      },
+      backgroundPosition: {
+        search: "22%",
       },
     },
   },
