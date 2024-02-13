@@ -33,6 +33,12 @@ module.exports = {
       fontFamily: {
         montserrat: "Montserrat, sans-serif",
       },
+      spacing: {
+        95: "95%",
+      },
+      height: {
+        487: "487px",
+      },
     },
   },
   plugins: [],
