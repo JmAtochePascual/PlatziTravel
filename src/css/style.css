@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+    @apply w-40 h-48 rounded-lg overflow-hidden flex-shrink-0 shadow-lg lg:w-72 lg:h-80;
+}
+
+.card__img {
+    @apply h-2/4 bg-cover;
+}
+
+.card:nth-child(even) div:nth-of-type(2) {
+    background-color: white;
+}
+
+.card__info {
+    @apply h-2/4 p-2 lg:p-8 bg-secondary;
+}
+
+.card:nth-child(even) .card__info {
+    @apply bg-white;
+}
+
+.card__title {
+    @apply mb-1 text-base font-bold text-white lg:text-2xl;
+}
+
+.card__copy {
+    @apply text-xs text-white lg:text-base;
+}
+
+.card:nth-child(even) .card__title,
+.card:nth-child(even) .card__copy {
+    @apply text-tertiary;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #ccc;
+}
