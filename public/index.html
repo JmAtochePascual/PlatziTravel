@@ -13,20 +13,20 @@
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class=" min-w-80 font-montserrat">
+<body class=" min-w-80 font-montserrat dark:bg-gray-800">
 	<header id="header" class="h-487 bg-sanFrancisco bg-cover bg-center lg:h-700 lg:bg-sanFranciscoDesktop 2xl:h-900">
-		<div class="mb-5 lg:bg-white">
+		<div class="mb-5 lg:bg-white lg:dark:bg-gray-800">
 			<div class="w-95 max-w-7xl mx-auto py-6 flex justify-end lg:justify-between">
-				<p class="hidden text-lg font-bold text-primary lg:block">PlatziTravel</p>
+				<p class="hidden text-lg font-bold text-primary lg:block dark:text-white">PlatziTravel</p>
 				<nav class="hidden lg:flex lg:gap-12">
-					<a class="text-lg font-bold text-primary" href="#recomendaciones">Locations</a>
-					<a class="text-lg font-bold text-primary" href="#destacadas">Stays</a>
-					<a class="text-lg font-bold text-primary" href="#preguntas">FAQS</a>
-					<a class="text-lg font-bold text-primary" href="#footer">About Us</a>
+					<a class="text-lg font-bold text-primary dark:text-white" href="#recomendaciones">Locations</a>
+					<a class="text-lg font-bold text-primary dark:text-white" href="#destacadas">Stays</a>
+					<a class="text-lg font-bold text-primary dark:text-white" href="#preguntas">FAQS</a>
+					<a class="text-lg font-bold text-primary dark:text-white" href="#footer">About Us</a>
 				</nav>
 				<div class="flex gap-6">
 					<button class="hidden lg:block"><img src="./icon/Searchbar.svg" alt="imagenes de una lupa"></button>
-					<button class="p-1 px-6 bg-white rounded-3xl lg:p-0"><img src="./icon/moon.svg"
+					<button id="button" class="p-1 px-6 bg-white rounded-3xl lg:p-0 dark:bg-gray-800"><img src="./icon/moon.svg"
 							alt="imagen de una luna"></button>
 				</div>
 			</div>
@@ -44,7 +44,7 @@
 
 	<main>
 		<section id="recomendaciones" class="w-95 max-w-7xl mx-auto pt-8 lg:pt-12">
-			<h2 class="mb-6 text-primary font-bold text-xl lg:mb-12 lg:text-4xl">Our Recomendations</h2>
+			<h2 class="mb-6 text-primary font-bold text-xl lg:mb-12 lg:text-4xl dark:text-white">Our Recomendations</h2>
 			<div class="w-full pb-5 flex gap-4 overflow-x-auto">
 				<article class="card">
 					<div class="card__img bg-norway"></div>
@@ -99,7 +99,7 @@
 		</section>
 
 		<section id="destacadas" class="w-95 max-w-7xl mx-auto pt-8">
-			<h2 class="mb-6 text-primary font-bold text-xl lg:mb-12 lg:text-4xl">Trending Stays</h2>
+			<h2 class="mb-6 text-primary font-bold text-xl lg:mb-12 lg:text-4xl dark:text-white">Trending Stays</h2>
 			<div class="grid gap-5 grid-cols-1 lg:grid-cols-5 lg:grid-rows-200">
 				<div
 					class="h-80 p-6 bg-chicago bg-cover bg-center rounded-lg lg:h-full lg:row-start-1 lg:row-end-3 lg:col-span-5">
@@ -124,49 +124,55 @@
 		</section>
 
 		<section id="preguntas" class="w-95 max-w-7xl mx-auto pt-8">
-			<h2 class="mb-6 text-primary font-bold text-xl lg:mb-12 lg:text-4xl">FAQs</h2>
+			<h2 class="mb-6 text-primary font-bold text-xl lg:mb-12 lg:text-4xl dark:text-white">FAQs</h2>
 			<div class="flex flex-col gap-4">
 				<div class="">
-					<p class="mb-2 text-primary font-bold text-base lg:mb-3 lg:text-xl">Payment Methods</p>
-					<p class="text-sm lg:text-lg">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+					<p class="mb-2 text-primary font-bold text-base lg:mb-3 lg:text-xl dark:text-white">Payment Methods</p>
+					<p class="text-sm lg:text-lg dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance
+					</p>
 				</div>
 
 				<div class="">
-					<p class="mb-2 text-primary font-bold text-base lg:mb-3 lg:text-xl">Cancellation Policy</p>
-					<p class="text-sm lg:text-lg">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+					<p class="mb-2 text-primary font-bold text-base lg:mb-3 lg:text-xl dark:text-white">Cancellation Policy</p>
+					<p class="text-sm lg:text-lg dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance
+					</p>
 				</div>
 
 				<div class="">
-					<p class="mb-2 text-primary font-bold text-base lg:mb-3 lg:text-xl">Long Stays</p>
-					<p class="text-sm lg:text-lg">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+					<p class="mb-2 text-primary font-bold text-base lg:mb-3 lg:text-xl dark:text-white">Long Stays</p>
+					<p class="text-sm lg:text-lg dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance
+					</p>
 				</div>
 
 				<div class="">
-					<p class="mb-2 text-primary font-bold text-base lg:mb-3 lg:text-xl">Cancellation Policy</p>
-					<p class="text-sm lg:text-lg">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+					<p class="mb-2 text-primary font-bold text-base lg:mb-3 lg:text-xl dark:text-white">Cancellation Policy</p>
+					<p class="text-sm lg:text-lg dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance
+					</p>
 				</div>
 
 				<div class="">
-					<p class="mb-2 text-primary font-bold text-base lg:mb-3 lg:text-xl">Cancellation Policy</p>
-					<p class="text-sm lg:text-lg">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+					<p class="mb-2 text-primary font-bold text-base lg:mb-3 lg:text-xl dark:text-white">Cancellation Policy</p>
+					<p class="text-sm lg:text-lg dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance
+					</p>
 				</div>
 			</div>
 		</section>
 	</main>
 
 	<footer id="footer" class="w-95 max-w-7xl mx-auto pt-16 pb-8">
-		<h2 class="mb-6 font-bold text-xl opacity-50 lg:mb-4 lg:text-4xl">About Us</h2>
-		<p class="mb-4 text-sm opacity-50 lg:text-lg">Jobs</p>
-		<p class="mb-4 text-sm opacity-50 lg:text-lg">Privacy policy</p>
-		<p class="mb-4 text-sm opacity-50 lg:text-lg">Terms and Conditions</p>
-		<p class="mb-4 text-sm opacity-50 lg:text-lg">Platzi Travel, inc</p>
-		<p class="mb-4 text-sm opacity-50 lg:text-lg">Follow Us</p>
+		<h2 class="mb-6 font-bold text-xl opacity-50 lg:mb-4 lg:text-4xl dark:text-white">About Us</h2>
+		<p class="mb-4 text-sm opacity-50 lg:text-lg dark:text-white">Jobs</p>
+		<p class="mb-4 text-sm opacity-50 lg:text-lg dark:text-white">Privacy policy</p>
+		<p class="mb-4 text-sm opacity-50 lg:text-lg dark:text-white">Terms and Conditions</p>
+		<p class="mb-4 text-sm opacity-50 lg:text-lg dark:text-white">Platzi Travel, inc</p>
+		<p class="mb-4 text-sm opacity-50 lg:text-lg dark:text-white">Follow Us</p>
 	</footer>
 
-	<nav class="w-full fixed bottom-0 bg-white lg:hidden">
+	<nav class="w-full fixed bottom-0 bg-white lg:hidden dark:bg-gray-900">
 		<div class="w-95 max-w-80 mx-auto py-6 flex justify-around">
 			<a href="#recomendaciones">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-gray-700">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+					class="w-6 h-6 text-gray-700 dark:text-gray-500">
 					<path
 						d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
 					<path
@@ -175,7 +181,8 @@
 			</a>
 
 			<a href="#destacadas">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-gray-700">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+					class="w-6 h-6 text-gray-700 dark:text-gray-500">
 					<path
 						d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
 				</svg>
@@ -190,7 +197,8 @@
 			</a>
 
 			<a href="#preguntas">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-gray-700">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+					class="w-6 h-6 text-gray-700 dark:text-gray-500">
 					<path fill-rule="evenodd"
 						d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z"
 						clip-rule="evenodd" />
@@ -198,6 +206,16 @@
 			</a>
 		</div>
 	</nav>
+
+	<script>
+		const htmlElement = document.querySelector('html');
+		const buttonDark = document.querySelector('#button');
+
+		buttonDark.addEventListener('click', () => {
+			htmlElement.classList.toggle('dark');
+			console.log('click')
+		});
+	</script>
 </body>
 
 </html>
