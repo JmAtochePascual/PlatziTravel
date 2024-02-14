@@ -39,11 +39,30 @@ module.exports = {
       },
       height: {
         487: "487px",
+        654: "654px",
         700: "700px",
         900: "900px",
       },
       backgroundPosition: {
         search: "22%",
+      },
+      gridTemplateRows: {
+        // Simple 16 row grid
+        200: "repeat(4, minmax(0, 200px))",
+      },
+      gridRowStart: {
+        1: "1",
+        2: "2",
+        3: "3",
+        4: "4",
+        5: "5",
+      },
+      gridRowEnd: {
+        1: "1",
+        2: "2",
+        3: "3",
+        4: "4",
+        5: "5",
       },
     },
   },
