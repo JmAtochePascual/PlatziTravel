@@ -35,6 +35,7 @@
     @apply text-tertiary;
 }
 
+/* 
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
     width: 5px;
