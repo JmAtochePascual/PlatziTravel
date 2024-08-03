@@ -64,6 +64,6 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🌐Ver Proyecto en la WEB
 
-[ver Proyecto](https://jmatochepacual.github.io/PlatziTravel/)
+[ver Proyecto](https://jmatochepascual.github.io/PlatziTravel/)
 
 © 2024 PlatziTravel. Todos los derechos reservados.
