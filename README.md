@@ -14,6 +14,12 @@ Este proyecto web demuestra las capacidades de Tailwind CSS para crear interface
 
 ## Tecnologías
 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
 - **HTML5**: Lenguaje de marcado para estructurar el contenido de la página.
 - **Tailwind CSS**: Framework de CSS utilizado para el diseño y estilizado.
 - **JavaScript**: Implementación del modo oscuro y funcionalidades interactivas.
