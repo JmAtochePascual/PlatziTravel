@@ -6,11 +6,11 @@ Este proyecto web demuestra las capacidades de Tailwind CSS para crear interface
 
 ## Caracteristicas
 
-- **Google Fonts**: Tipografías web optimizadas.
-- **Optimización SEO**: Metadatos y estructura optimizada para buscadores.
-- **Responsive Design**: Diseño adaptable para móviles, tablets y escritorio.
-- **Dark Mode**: Implementación de modo oscuro nativo.
-- **Favicon**: Conjunto completo de iconos para diferentes dispositivos.
+- Tipografías web optimizadas.
+- Metadatos y estructura optimizada para buscadores.
+- Diseño adaptable para móviles, tablets y escritorio.
+- Implementación de modo oscuro nativo.
+- Conjunto completo de iconos para diferentes dispositivos.
 
 ## Tecnologías
 
@@ -20,12 +20,10 @@ Este proyecto web demuestra las capacidades de Tailwind CSS para crear interface
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-- **HTML5**: Lenguaje de marcado para estructurar el contenido de la página.
-- **Tailwind CSS**: Framework de CSS utilizado para el diseño y estilizado.
-- **JavaScript**: Implementación del modo oscuro y funcionalidades interactivas.
-- **Node.js**: Entorno de ejecución para las herramientas de desarrollo.
-- **npm**: Gestor de paquetes para las dependencias del proyecto.
-- **PostCSS**: Procesamiento y optimización del CSS generado.
+- **HTML:** Lenguaje de marcado para estructurar el contenido de la página.
+- **CSS:** Lenguaje de estilos utilizado para definir la presentación visual y el diseño responsivo.
+- **Tailwind CSS:** Framework de CSS utilizado para el diseño y estilizado.
+- **JavaScript:** Lenguaje de programación que permite agregar interactividad y dinamismo.
 
 ## Estructura del Proyecto
 
@@ -36,7 +34,7 @@ Este proyecto web demuestra las capacidades de Tailwind CSS para crear interface
   - **css**: Archivos CSS y configuración de Tailwind
 - **index.html**: Página principal con destinos destacados y experiencias de viaje.
 
-## Instlaciones
+## Instalaciones
 
 > Para trabajar con este proyecto, necesitarás tener instalado:
 >
@@ -98,4 +96,4 @@ Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
 Este proyecto se encuentra disponible bajo la licencia MIT. Puedes consultar los términos completos [aquí](https://opensource.org/licenses/MIT).
 
-Desarrollado con 💚 por JMCode | © 2025 - Transformando ideas en soluciones digitales
+<p align="center" style="margin-top: 120px;">Desarrollado con 🤍 por JMCode | Transformando ideas en soluciones digitales</p>
